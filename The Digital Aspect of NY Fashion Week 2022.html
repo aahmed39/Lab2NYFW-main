@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>New york Fashion Week</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    
+
+    <div class="topnav" id="myTopnav">
+        <a  href="index.html">Home Page</a>
+        <a href="Origin.html">Origin</a>
+        <a href="Designers, Brands & Models.html">Designers, Brands & Models</a>
+        <a class="active" href="The Digital Aspect of NY Fashion Week 2022.html">The Digital Aspect of NY Fashion Week 2022</a>
+        <a href="references.html">References</a>
+    
+    </div>
+    
+      
+        <video width="500" controls id="video1">
+            <source src="vid/TOMMYPLAY.mp4" type="video/mp4">
+            <source src="vid/TOMMYPLAY.ogg" type="video/ogg">
+        </video>
+            <br><br>
+            <div style="text-align:center"> 
+                <button onclick="playPause()">Play/Pause</button> 
+                <button onclick="makeBig()">Big</button>
+                <button onclick="makeSmall()">Small</button>
+                <button onclick="makeNormal()">Normal</button>
+        </div> 
+          
+    
+          <script> 
+            var myVideo = document.getElementById("video1"); 
+            
+            function playPause() { 
+              if (myVideo.paused) 
+                myVideo.play(); 
+              else 
+                myVideo.pause(); 
+            } 
+            
+            function makeBig() { 
+                myVideo.width = 560; 
+            } 
+            
+            function makeSmall() { 
+                myVideo.width = 320; 
+            } 
+            
+            function makeNormal() { 
+                myVideo.width = 420; 
+            } 
+            </script> 
+
+    <!-- Page content -->
+    <div class="content">
+        This years fashion week was back in person after taking a pause since the start of covid back in 2020, although it was in person, many designers opted to include a digital interface into their shows that elevated the pieces in their collections. According to an article by CNN, The designers "Hilfiger and Gordon teamed up with the video game platform Roblox to give their physical collections a presence in the metaverse, with the Hilfiger show live streamed as part of the world "Tommy Play"." Which was really interesting to see.
+    </div>
+
+
+</body>
+
+</html>
